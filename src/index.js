@@ -1,3 +1,4 @@
+import 'flexible'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import FastClick from 'fastclick'

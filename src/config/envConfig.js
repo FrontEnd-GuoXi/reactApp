@@ -1,0 +1,11 @@
+let baseUrl = '//api.cangdu.org',
+    imgUrl = '//elm.cangdu.org/img/';
+
+if (process.env.NODE_ENV === 'development') {
+    baseUrl = '//api.cangdu.org';
+}
+
+export default {
+    baseUrl,
+    imgUrl
+}
